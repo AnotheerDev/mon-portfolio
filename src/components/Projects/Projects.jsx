@@ -1,13 +1,13 @@
-import React from "react";
+// Projects.jsx
+import React from 'react';
 import './projects.css';
 
 const Projects = () => {
     return (
-        <div className="projects-container">
+        <section id="projects">
             <h1>Projets</h1>
-            <p>Voici quelques-uns de mes projets récents...</p>
-            {/* Plus de contenu ici */}
-        </div>
+            {/* Ici, vous pouvez ajouter des cartes de projet, des images, des descriptions, etc. */}
+        </section>
     );
 }
 
