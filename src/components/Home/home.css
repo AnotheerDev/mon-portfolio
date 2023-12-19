@@ -1,7 +1,8 @@
 /* Home.css */
-.home-container {
-  text-align: center;
-  padding: 20px;
+#home {
+  /* Styles pour la section Accueil */
+  padding: 50px 0;
+  height: 100vh;
 }
 
 /* Ajoutez plus de styles ici au besoin */
