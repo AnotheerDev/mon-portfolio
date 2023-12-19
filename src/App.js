@@ -1,26 +1,23 @@
+// App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './components/Header/Header.jsx';
-import Home from './components/Home/Home.jsx';
-import Projects from './components/Projects/Projects.jsx';
-import Resume from './components/Resume/Resume.jsx';
+import Header from './components/Header/Header';
+import Home from './components/Home/Home';
+import Projects from './components/Projects/Projects';
+import Resume from './components/Resume/Resume';
+import './App.css';
 
-
-
-function App() {
+const App = () => {
   return (
-    <Router>
-      <div>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/resume" element={<Resume />} />
-        </Routes>
-      </div>
-    </Router>
+    <div>
+      <Header />
+      <main>
+        <Home />        // Votre section Accueil
+        <Projects />    // Votre section Projets
+        <Resume />      // Votre section CV
+        {/* Vous pouvez ajouter plus de sections ici si nécessaire */}
+      </main>
+    </div>
   );
 }
-
 
 export default App;
