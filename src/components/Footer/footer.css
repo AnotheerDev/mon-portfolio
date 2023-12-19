@@ -1,0 +1,22 @@
+/* footer.css */
+.footer .fab {
+  font-size: 30px; /* Ajustez la taille selon vos besoins */
+}
+
+/* Le reste de votre CSS */
+.footer {
+  display: flex;
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  justify-content: center;
+}
+
+.footer a {
+  margin: 0 10px;
+  color: #007bff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
