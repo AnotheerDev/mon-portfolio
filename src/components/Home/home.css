@@ -5,4 +5,39 @@
   height: 100vh;
 }
 
-/* Ajoutez plus de styles ici au besoin */
+.home-section {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #f8f8f8; /* Couleur de fond */
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
