@@ -13,13 +13,25 @@ const App = () => {
 
   const scrollToSection = (index) => {
     setActiveIndex(index);
-    sections[index].current.scrollIntoView({ behavior: 'smooth' });
+  
+    setTimeout(() => {
+      const headerOffset = document.querySelector('header').offsetHeight; // Hauteur du header
+      const topOfSection = sections[index].current.offsetTop; // Position Y de la section depuis le haut du document
+      const offsetPosition = topOfSection - headerOffset; // Soustrait la hauteur du header pour éviter le chevauchement
+  
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }, 0);
   };
+  
+  
 
   return (
     <div>
       <Header />
-      <main>
+      <main className='main'>
         <div ref={sections[0]}><Home /></div>
         <div ref={sections[1]}><Projects /></div>
         <div ref={sections[2]}><Resume /></div>
