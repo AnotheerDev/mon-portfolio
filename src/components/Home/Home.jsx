@@ -53,10 +53,6 @@ const Home = () => {
           <h1>Bienvenue sur Mon Portfolio</h1>
         </div>
         <div id="typedtext"></div>
-        {/* <div className="cta">
-          <a href="#projects" className="btn">Voir Mes Projets</a>
-          <a href="#resume" className="btn">CV</a>
-        </div> */}
       </div>
     </section>
   );

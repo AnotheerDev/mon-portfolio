@@ -1,8 +1,9 @@
 /* Home.css */
 #home {
   /* Styles pour la section Accueil */
-  padding: 50px 0;
-  height: 100vh;
+  /* padding: 50px 0; */
+  height: 80vh;
+  background-color: blueviolet;
 }
 
 .home-section {
@@ -18,33 +19,13 @@
 
 .intro h1 {
   font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-.intro p {
-  font-size: 1.2rem;
   margin-bottom: 40px;
-}
-
-.btn {
-  padding: 10px 20px;
-  border: none;
-  background-color: #007bff;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  margin: 0 10px;
-  transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-  background-color: #0056b3;
 }
 
 #typedtext {
   font-family: 'Waiting for the Sunrise', cursive; 
   font-size:30px; 
-  margin: 10px 50px; 
+  margin: 30px 50px; 
   letter-spacing: 6px; 
   font-weight: bold;
 }
