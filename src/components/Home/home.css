@@ -8,7 +8,7 @@
 
 .home-section {
   text-align: center;
-  padding: 100px 20px;
+  padding: 0 20px 100px 20px;
   /* background-color: #f8f8f8; */
 }
 
@@ -30,4 +30,13 @@
   letter-spacing: 6px; 
   font-weight: bold;
   color: aliceblue ;
+}
+
+.img-profil {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 20px 0;
+  border: 5px solid #fff;
+  box-shadow: 0 0 0 5px #fff;
 }
