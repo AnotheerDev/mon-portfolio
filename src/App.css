@@ -29,3 +29,11 @@
   flex-direction: column;
   gap: 0;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to left top, #213d67, #57396e, #852f5e, #9f303c, #9e4a0b);  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
