@@ -23,8 +23,8 @@ const App = () => {
       <main className='main'>
         <div ref={sections[0]}><Header /></div>
         <div ref={sections[1]}><Home /></div>
-        <div ref={sections[2]}><Projects /></div>
-        <div ref={sections[3]}><Resume /></div>
+        <div ref={sections[2]}><Resume /></div>
+        <div ref={sections[3]}><Projects /></div>
         <div ref={sections[4]}><Footer /></div>
       </main>
       <div className="navigation-buttons">
