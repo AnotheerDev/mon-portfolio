@@ -28,9 +28,6 @@
   width: 45%;
 }
 
-.certifications h2 {
-  text-align: center;
-}
 
 .formations {
   display: flex;
@@ -40,7 +37,7 @@
   width: 45%;
 }
 
-.formations h2 {
+h2 {
   text-align: center;
 }
 
@@ -60,5 +57,22 @@
     width: 100%;
   }
   
+}
+
+.tech-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.outils {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  margin: 5px;
 }
 
