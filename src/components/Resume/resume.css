@@ -3,7 +3,8 @@
   /* Styles pour la section CV */
   /* padding: 50px 0; */
   min-height: 100vh;
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
+  color: aliceblue;
 }
 
 #resume h1 {
@@ -11,6 +12,7 @@
   padding: 50px 0;
   text-align: center;
   font-size: 2.5rem;
+  color: aliceblue ;
 }
 
 #container-cv {
@@ -39,6 +41,7 @@
 
 h2 {
   text-align: center;
+  color: aliceblue;
 }
 
 @media screen and (max-width: 768px) {
@@ -59,11 +62,22 @@ h2 {
   
 }
 
+.tech-card {
+  background-color: rgba(240, 248, 255, 0.276);
+  border-color: #2d2d2d;
+}
+
+.tech-card.learning {
+  background-color: rgba(240, 248, 255, 0.276);
+  border-color: #2d2d2d;
+}
+
 .tech-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
+  color: black;
 }
 
 .outils {
@@ -80,6 +94,9 @@ li {
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
+}
+.download-cv a {
+  text-decoration: none;
 }
 
 .portfolio-experiment a {
