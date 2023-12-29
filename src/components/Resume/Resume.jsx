@@ -111,7 +111,7 @@ const Resume = () => {
         </div>
       </div>
 
-      <div className="outils">
+      <div className="outils-cv">
         <h2>Outils</h2>
         <ul>
           {outils.map((outil, index) => (
