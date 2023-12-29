@@ -2,7 +2,7 @@
 #home {
   /* Styles pour la section Accueil */
   /* padding: 50px 0; */
-  height: 80vh;
+  min-height: 80vh;
   background-color: blueviolet;
 }
 
