@@ -19,7 +19,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  gap: 10%;
+  /* gap: 10%; */
+  padding: 50px 0;
 }
 
 .certifications {
@@ -44,27 +45,8 @@ h2 {
   color: aliceblue;
 }
 
-@media screen and (max-width: 768px) {
-  #container-cv {
-    flex-direction: column;
-    justify-content: center;
-    gap: 10%;
-    padding: 0 10%;
-  }
-
-  .certifications {
-    width: 100%;
-  }
-
-  .formations {
-    width: 100%;
-  }
-  
-}
-
-.tech-card {
-  background-color: rgba(240, 248, 255, 0.276);
-  border-color: #2d2d2d;
+.comp {
+  padding : 50px 0;
 }
 
 .tech-card.learning {
@@ -235,4 +217,23 @@ li {
 .portfolio-experiment a:active .line.-bottom {
   transition: transform 0.5s cubic-bezier(0,.53,.29,1) 0.56s;
   transform-origin: left;
+}
+
+
+@media screen and (max-width: 768px) {
+  #container-cv {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10%;
+    padding: 0 10%;
+  }
+
+  .certifications {
+    width: 100%;
+  }
+
+  .formations {
+    width: 100%;
+  }
+  
 }
