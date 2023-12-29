@@ -2,7 +2,63 @@
 #resume {
   /* Styles pour la section CV */
   /* padding: 50px 0; */
-  height: 100vh;
+  min-height: 100vh;
   background-color: cadetblue;
+}
+
+#resume h1 {
+  margin: 0;
+  padding: 50px 0;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+#container-cv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 10%;
+}
+
+.certifications {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 10%;
+  width: 45%;
+}
+
+.certifications h2 {
+  text-align: center;
+}
+
+.formations {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 10%;
+  width: 45%;
+}
+
+.formations h2 {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  #container-cv {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10%;
+    padding: 0 10%;
+  }
+
+  .certifications {
+    width: 100%;
+  }
+
+  .formations {
+    width: 100%;
+  }
+  
 }
 
