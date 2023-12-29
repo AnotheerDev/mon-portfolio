@@ -1,10 +1,13 @@
 .tech-card {
-  border: 1px solid #ccc;
+  background-color: rgba(240, 248, 255, 0.276);
+  border-color: #2d2d2d;
   border-radius: 8px;
   padding: 10px;
   text-align: center;
   margin: 10px;
-  background-color: white;
+  height: 200px;
+  width: 200px;
+  color: aliceblue;
 }
 
 .tech-card.learning {
@@ -12,7 +15,8 @@
 }
 
 .tech-card img {
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 140px;
   margin: 10px;
+  background-image: cover;
 }
