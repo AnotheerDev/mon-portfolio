@@ -30,7 +30,7 @@ const Resume = () => {
     { name: "JavaScript", image: "/img/js.png" },
     { name: "PHP", image: "/img/php.png" },
     { name: "Symfony", image: "/img/symfony.png" },
-    { name: "MYSQL", image: "/img/mysql.png" },
+    { name: "SQL", image: "/img/mysql.png" },
   ];
 
   const learningTechs = [
@@ -88,7 +88,7 @@ const Resume = () => {
         </div>
       </div>
 
-      <div>
+      <div className="comp">
         <h2>Compétences</h2>
         <div className="tech-cards">
           {masteredTechs.map((tech, index) => (
@@ -97,7 +97,7 @@ const Resume = () => {
         </div>
       </div>
 
-      <div>
+      <div className="comp">
         <h2>En apprentissage</h2>
         <div className="tech-cards">
           {learningTechs.map((tech, index) => (
