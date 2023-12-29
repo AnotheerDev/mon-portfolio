@@ -60,6 +60,15 @@ const Resume = () => {
   return (
     <section id="resume">
       <h1>Curriculum vitae</h1>
+      <div className="download-cv portfolio-experiment">
+        <a href="/cv-julien-leger.pdf" download="cv-julien-leger.pdf">
+        <span className="text">Télécharger mon CV</span>
+        <span className="line -right"></span>
+        <span className="line -top"></span>
+        <span className="line -left"></span>
+        <span className="line -bottom"></span>
+        </a>
+      </div>
       <div id="container-cv">
         <div className="formations">
           <h2>Formations</h2>
