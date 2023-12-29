@@ -1,0 +1,18 @@
+.tech-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+.tech-card.learning {
+  background-color: #f0f0f0;
+}
+
+.tech-card img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
