@@ -52,7 +52,10 @@ const Home = () => {
         <div className="intro">
           <h1>Bienvenue sur Mon Portfolio</h1>
         </div>
-        <div id="typedtext"></div>
+
+          <img src="img/moi.jpg" alt="moi" className='img-profil'/>
+          <div id="typedtext"></div>
+
       </div>
     </section>
   );
