@@ -89,3 +89,53 @@
 .fab:hover {
   color: #f26522;
 }
+
+.fa-bars {
+  color: aliceblue;
+  font-size:xx-large
+}
+
+
+
+/* Styles pour le menu burger */
+.burger-menu {
+  display: none;
+  cursor: pointer;
+}
+
+
+/* Cacher les liens de navigation sur les petits écrans et les étendre sur toute la hauteur lorsqu'ils sont ouverts */
+@media screen and (max-width: 760px) {
+  .burger-menu {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    position: fixed; /* Utilisez fixed pour que le menu soit positionné par rapport à la fenêtre d'affichage */
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: center; /* Centrez les liens verticalement */
+    align-items: center; /* Centrez les liens horizontalement */
+    background-color: #333;
+    width: 100%;
+    height: 100vh; /* Utilisez 100vh pour que le menu prenne toute la hauteur */
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    z-index: 1000; /* Assurez-vous que le z-index est suffisamment élevé pour être au-dessus des autres éléments */
+    transition: all 0.3s ease; /* Transition pour l'animation de l'ouverture */
+  }
+
+  .nav-links.open {
+    display: flex; /* Affiche le menu lorsque open est ajouté */
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+}
+
+
