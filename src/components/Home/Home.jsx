@@ -9,7 +9,7 @@ const Home = () => {
 
   const typewriter = () => {
     var aText = new Array(
-      "Je suis JULIEN LEGER, un développeur web et web mobile. Je suis actuellement à la recherche d'une alternance pour le CDA (Concepteur Développeur d'Applications)"
+      "Je suis JULIEN LEGER, un développeur web et web mobile. Je suis actuellement à la recherche d'une alternance pour le titre professionnel CDA (Concepteur Développeur d'Applications)"
     );
     var iSpeed = 50; // time delay of print out
     var iIndex = 0; // start printing array at this position
