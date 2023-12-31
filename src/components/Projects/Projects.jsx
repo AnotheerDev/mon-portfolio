@@ -32,6 +32,9 @@ const Projects = () => {
         "Webpack"
     ];
 
+    const githubUrl = "https://github.com/AnotheerDev/SiteManon";
+
+
     return (
         <section id="projects">
             <h1>Projet(s)</h1>
@@ -42,7 +45,9 @@ const Projects = () => {
                     </div> 
                     <div className="flip-box-back">
                         <div>
-                            <h2>Conception du site de Manon Mangeol</h2>
+                            <h2>
+                                <a href={githubUrl} target="_blank" rel="noopener noreferrer">Conception du site de Manon Mangeol</a>
+                                </h2>
                             <div className="global">
                                 <div className="mission">
                                     <h3 className="third">Missions</h3>
