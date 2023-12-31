@@ -1,9 +1,6 @@
 /* projects.css */
 #projects {
-  /* Styles pour la section projets */
-  /* padding: 50px 0; */
   min-height: 100vh;
-  /* background-color: brown; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,8 +17,6 @@
 .bg-img{
   width: 34rem;
   height: 19rem;
-  /* width: 100%;
-  height: 100%; */
   background-size: cover;
 }
 
@@ -32,6 +27,11 @@
 
 .flip-box-back {
   transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
 }
 
 .flip-box-front, .flip-box-back {
@@ -43,17 +43,23 @@
   overflow: hidden;
   background-color: transparent;
   width: 500px;
-  height: auto;
+  height: 550px;
   perspective: 2000px;
 }
 
 .flip-box-inner {
   position: relative;
   width: 100%;
-  height: 20.5rem;
-  transition: transform 1.2s;
+  height: 100%;
   transition: transform 1.2s;
   transform-style: preserve-3d;
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%; 
+  backface-visibility: hidden;
 }
 
 .flip-box:hover .flip-box-inner {
@@ -121,14 +127,26 @@
   color: aliceblue;
 }
 
+.flip-box-back a
+{
+  text-decoration: none;
+  color: aliceblue;
+}
+
 @media screen and (max-width: 640px) {
   .flip-box {
     width: 80%;
-    height: auto;
-  }
+    height: 25rem;
+    }
+
   .bg-img{
     width: 100%;
     height: 100%;
+  }
+
+  .global{
+    flex-direction: column;
+    align-items: center;
   }
 }
 
