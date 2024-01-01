@@ -16,7 +16,8 @@
 
 .bg-img{
   width: 34rem;
-  height: 19rem;
+  /* height: 19rem; */
+  height: auto;
   background-size: cover;
 }
 
