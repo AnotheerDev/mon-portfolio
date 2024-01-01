@@ -95,19 +95,28 @@
   font-size:xx-large
 }
 
+.fa-times {
+  color: aliceblue;
+  font-size:xx-large;
+}
+
 
 
 /* Styles pour le menu burger */
 .burger-menu {
   display: none;
   cursor: pointer;
+  position: relative;
 }
 
 
 /* Cacher les liens de navigation sur les petits écrans et les étendre sur toute la hauteur lorsqu'ils sont ouverts */
 @media screen and (max-width: 760px) {
   .burger-menu {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1100;
   }
 
   .nav-links {
@@ -135,6 +144,10 @@
 
   .nav-links li {
     margin: 10px 0;
+  }
+
+  .burger-menu .fa-times {
+    display: block;
   }
 }
 
