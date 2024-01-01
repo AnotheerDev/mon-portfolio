@@ -16,7 +16,11 @@ const Header = () => {
         <header>
             <nav className='nav'>
                 <div className="burger-menu" onClick={toggleMenu}>
-                    <i className="fas fa-bars"></i>
+                    {menuOpen ? (
+                        <i className="fas fa-times"></i>
+                    ) : (
+                        <i className="fas fa-bars"></i>
+                    )}
                 </div>
                 <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
                     <li className="center" onClick={closeMenu}><a href="#home">Accueil</a></li>
